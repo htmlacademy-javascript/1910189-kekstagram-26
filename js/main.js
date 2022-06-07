@@ -4,9 +4,13 @@ function getRandomInclusive (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function getMaxStringLength (string,maxLength) {
+function isMaxLengthExceeded (string,maxLength) {
   if (string.length<=maxLength) {
-    return true
+    return true;
   }
-  return false
+  return false;
 }
+
+getRandomInclusive (1, 10);
+
+isMaxLengthExceeded ('Привет', 10);
