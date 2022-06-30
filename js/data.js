@@ -1,4 +1,4 @@
-import {getRandomInclusive} from './util';
+import {getRandomInclusive} from './util.js';
 
 const descriptions = [
   'Красивая',
