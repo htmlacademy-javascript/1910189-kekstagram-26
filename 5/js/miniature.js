@@ -16,7 +16,7 @@ photos.forEach((photo) => {
   const pictureLike = userPhoto.querySelector('.picture__likes');
   pictureLike.textContent = photo.likes;
   const pictureComments = userPhoto.querySelector('.picture__comments');
-  pictureComments.textContent = photo.comments;
+  pictureComments.textContent = photo.comments.length;
   const picture = userPhoto.querySelector('.picture__img');
   picture.src = photo.url;
   similarListFragment.appendChild(userPhoto);
