@@ -28,3 +28,4 @@ document.addEventListener('keydown', (evt) => {
     imgUploadForm.reset();
   }
 });
+console.log();
